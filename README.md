@@ -9,7 +9,7 @@
 
 - **Live Demo:** https://fx-checker-blue.vercel.app/
 - **Repository:** https://github.com/GabrielHenrique17y/FX_checker.git
-- **Frontend Mentor Solution:**
+- **Frontend Mentor Solution:** https://www.frontendmentor.io/solutions/fxchecker-iWfH-V8ra8
 
 ---
 
