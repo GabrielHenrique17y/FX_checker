@@ -3,7 +3,7 @@
 > A modern currency exchange application built for the Frontend Mentor FX
 > Checker Hackathon.
 
-<img src="./public/preview.png" width="500" alt="Preview">
+<img src="./public/screenshots/preview.png" width="500" alt="Preview">
 
 ## 🔗 Links
 
@@ -37,14 +37,14 @@ interface.
 
 ## Desktop
 
-<img src="./public/desktop.png" width="500" alt="deskto">
+<img src="./public/screenshots/desktop.png" width="500" alt="deskto">
 ## Tablet
 
-<img src="./public/tablet.png" width="500" alt="tablet">
+<img src="./public/screenshots/tablet.png" width="500" alt="tablet">
 
 ## Mobile
 
-<img src="./public/mobile.png" width="500" alt="mobile">
+<img src="./public/screenshots/mobile.png" width="500" alt="mobile">
 
 ---
 
