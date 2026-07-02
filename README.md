@@ -7,17 +7,13 @@
 
 ## 🔗 Links
 
-- **Live Demo:** 
-- **Repository:** 
+- **Live Demo:** https://fx-checker-blue.vercel.app/
+- **Repository:** https://github.com/GabrielHenrique17y/FX_checker.git
 - **Frontend Mentor Solution:** 
 
 ---
 
 # 📖 About
-
-Briefly describe your project.
-
-Example:
 
 FX Checker is a currency exchange application that allows users to convert
 currencies, compare exchange rates, visualize historical data, monitor live
@@ -64,7 +60,7 @@ interface.
 Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/GabrielHenrique17y/FX_checker.git
 ```
 
 Install dependencies
@@ -129,27 +125,10 @@ Example:
 
 ### Live Markets
 
-Explain how Live Markets works.
-
-Example:
-
 - 10 fixed currency pairs
 - 10 deterministic daily random pairs generated using `seedrandom`
 - Exchange rates calculated locally from a single base currency
 - Daily percentage change calculated without additional API requests
-
----
-
-### Performance
-
-Explain optimizations.
-
-Examples:
-
-- Memoization
-- Lazy loading
-- Reduced API requests
-- Reusable components
 
 ---
 

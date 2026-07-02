@@ -98,10 +98,10 @@ export function CompareContainer({
           return (
             <div
               key={code}
-              className='bg-neutral-600 border border-neutral-500 hover:border-neutral-300 rounded-lg px-4 py-3 flex gap-5 justify-between items-center active:border-lime-500'
+              className='bg-neutral-600 border border-neutral-500 hover:border-neutral-300 rounded-lg px-3 py-3 flex gap-2.5 justify-between items-center active:border-lime-500'
               onClick={() => setToCurrency(code)}
             >
-              <div className='flex gap-3'>
+              <div className='flex gap-2.5'>
                 <div className='flex items-center'>
                   <Image
                     src={`/assets/images/flags/${code.toLowerCase()}-flag.png`}
@@ -115,7 +115,7 @@ export function CompareContainer({
                   <span className='text-xs text-neutral-200'>{name}</span>
                 </div>
               </div>
-              <div className='flex items-center gap-5'>
+              <div className='flex items-center gap-2.5'>
                 <div className='flex flex-col gap-1.5 items-end'>
                   <span className='text-sm text-neutral-50'>
                     {compareData[code]?.result.toFixed(2) ?? '...'}

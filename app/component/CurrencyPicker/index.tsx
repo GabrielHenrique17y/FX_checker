@@ -38,7 +38,7 @@ export function CurrencyPicker({
   return (
     <div className='relative h-10 flex items-center'>
       <div
-        className='px-4 py-2.5 flex items-center gap-2 bg-neutral-500 hover:bg-neutral-400 border border-neutral-400 cursor-pointer rounded-lg active:border-lime-500'
+        className='px-2.5 lg:px-4 py-2.5 flex items-center gap-2 bg-neutral-500 hover:bg-neutral-400 border border-neutral-400 cursor-pointer rounded-lg active:border-lime-500'
         onClick={() => {
           setVisible(false);
           setIsVisible(!isVisible);
