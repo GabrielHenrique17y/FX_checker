@@ -8,6 +8,8 @@ interface Props {
   currencies: Record<string, string>;
   amount: number;
   setToCurrency: Dispatch<SetStateAction<string>>;
+  favorites: string[];
+  setFavorites: Dispatch<SetStateAction<string[]>>;
 }
 
 export function CompareContainer({
@@ -15,8 +17,9 @@ export function CompareContainer({
   currencies,
   amount,
   setToCurrency,
+  favorites,
+  setFavorites
 }: Props) {
-  const [favorites, setFavorites] = useState<string[]>([]);
 
   const currencyList = useMemo(() => {
     return Object.entries(currencies);
