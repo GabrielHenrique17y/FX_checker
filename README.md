@@ -3,13 +3,13 @@
 > A modern currency exchange application built for the Frontend Mentor FX
 > Checker Hackathon.
 
-![Preview](./public/screenshots/preview.png)
+<img src="./public/preview.png" width="500" alt="Preview">
 
 ## 🔗 Links
 
 - **Live Demo:** https://fx-checker-blue.vercel.app/
 - **Repository:** https://github.com/GabrielHenrique17y/FX_checker.git
-- **Frontend Mentor Solution:** 
+- **Frontend Mentor Solution:**
 
 ---
 
@@ -37,15 +37,14 @@ interface.
 
 ## Desktop
 
-![Desktop](./public/screenshots/desktop.png)
-
+<img src="./public/desktop.png" width="500" alt="deskto">
 ## Tablet
 
-![Tablet](./public/screenshots/tablet.png)
+<img src="./public/tablet.png" width="500" alt="tablet">
 
 ## Mobile
 
-![Mobile](./public/screenshots/mobile.png)
+<img src="./public/mobile.png" width="500" alt="mobile">
 
 ---
 
@@ -116,7 +115,6 @@ This project was designed with performance and scalability in mind.
 ---
 
 ### Data Fetching
-
 
 - Cached requests
 - Revalidation strategy
