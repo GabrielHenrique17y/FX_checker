@@ -3,7 +3,7 @@
 > A modern currency exchange application built for the Frontend Mentor FX
 > Checker Hackathon.
 
-![Preview]()
+![Preview](./public/screenshots/preview.png)
 
 ## 🔗 Links
 
@@ -37,11 +37,15 @@ interface.
 
 ## Desktop
 
-![Desktop]()
+![Desktop](./public/screenshots/desktop.png)
+
+## Tablet
+
+![Tablet](./public/screenshots/tablet.png)
 
 ## Mobile
 
-![Mobile]()
+![Mobile](./public/screenshots/mobile.png)
 
 ---
 
@@ -113,11 +117,7 @@ This project was designed with performance and scalability in mind.
 
 ### Data Fetching
 
-Explain how data is fetched.
 
-Example:
-
-- Parallel requests using `Promise.all`
 - Cached requests
 - Revalidation strategy
 

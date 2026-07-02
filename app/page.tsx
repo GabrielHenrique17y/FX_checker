@@ -132,9 +132,9 @@ export default function Home() {
             <div className='flex flex-col sm:flex-row items-stretch gap-4 w-full border-b border-dashed border-neutral-500 p-4 md:p-5'>
               <div className='flex-1 bg-neutral-600 p-4 rounded-lg border border-neutral-500 flex flex-col gap-3'>
                 <h1 className='text-sm text-neutral-100'>SEND</h1>
-                <div className='flex flex-row items-start sm:items-center gap-3'>
+                <div className='flex flex-row justify-between sm:items-center gap-1.5 md:gap-3'>
                   <input
-                    className='w-2/3 sm:flex-1 h-10 bg-transparent text-3xl sm:text-4xl text-neutral-50 focus:border focus:border-lime-500 focus:outline-0 focus:rounded-lg hover:border-b hover:border-b-neutral-200 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none [&::-moz-inner-spin-button]:appearance-none'
+                    className='w-2/4 sm:flex-1 h-10 bg-transparent text-3xl sm:text-4xl text-neutral-50 focus:border focus:border-lime-500 focus:outline-0 focus:rounded-lg hover:border-b hover:border-b-neutral-200 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none [&::-moz-inner-spin-button]:appearance-none'
                     type='number'
                     name='convert'
                     id='convert'
@@ -167,8 +167,8 @@ export default function Home() {
 
               <div className='flex-1 bg-neutral-600 p-4 rounded-lg border border-neutral-500 flex flex-col gap-3'>
                 <h1 className='text-sm text-neutral-100'>CONVERT</h1>
-                <div className='flex flex-row items-start sm:items-center gap-3'>
-                  <h1 className='w-2/3 sm:flex-1 h-10 text-3xl sm:text-4xl text-neutral-50 hover:border-b hover:border-b-neutral-200'>
+                <div className='flex flex-row justify-between sm:items-center gap-1.5 md:gap-3'>
+                  <h1 className='w-2/4 sm:flex-1 h-10 text-3xl sm:text-4xl text-neutral-50 hover:border-b hover:border-b-neutral-200'>
                     {result?.toFixed(2)}
                   </h1>
                   <CurrencyPicker
